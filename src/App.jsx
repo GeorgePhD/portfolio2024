@@ -1,11 +1,17 @@
+import './App.css'
+import MyRoutes from './router/MyRoutes';
 
 
 function App() {
+  
 
   return (
-    <>
-    <h1>New portfolio 2024</h1>
-    </>
+
+    <div className='layout'>
+
+    <MyRoutes/>
+    
+    </div>
   )
 }
 
