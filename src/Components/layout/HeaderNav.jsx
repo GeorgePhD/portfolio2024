@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-
+import '../../../src/App.css';
 const HeaderNav = () => {
     return (
         <header className='header'>
@@ -7,7 +7,7 @@ const HeaderNav = () => {
                 <h3 className='name'>Jorge Gamboa</h3>
             </div>
             <nav>
-                <ul>
+                <ul className='nav'>
                     <li>
                     <NavLink to='./Home' className={({isActive}) => isActive ? 'active' : ''}>Inicio</NavLink>
                     </li>

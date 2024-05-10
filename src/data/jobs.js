@@ -11,6 +11,14 @@ export const jobs = [
         'tech': 'React JS,CSS, React-bootstrap.'
     },
     {
+        'id': 'tprotein',
+        'name': 'Tprotein',
+        'img': 'images/tprotein.jpg',
+        'description': 'suplementos nutricionales.',
+        'url': 'https://www.tprotein.cl',
+        'tech': 'React JS, CSS, React-bootstrap.'
+    },
+    {
         'id': 'psiballest',
         'name': 'psiballest',
         'img': 'images/psiballest.jpg',
@@ -22,7 +30,7 @@ export const jobs = [
         'id': 'losmaitenesairsoft',
         'name': 'Los Maitenes Airsoft',
         'img': 'images/LosMaitenesChile.jpg',
-        'description': 'Sitio turístico, viaja por chile.',
+        'description': 'Cancha de airsoft.',
         'url': 'https://www.losmaitenesairsoft.cl',
         'tech': 'React JS, CSS, React-bootstrap.'
     },
@@ -33,14 +41,6 @@ export const jobs = [
         'description': 'fotografías de paisajes del sur de chile.',
         'url': 'https://www.fotografiasds.com',
         'tech': 'HTML, CSS, JS, bootstrap.'
-    },
-    {
-        'id': 'tprotein',
-        'name': 'Tprotein',
-        'img': 'images/tprotein.jpg',
-        'description': 'suplementos nutricionales.',
-        'url': 'https://www.tprotein.cl',
-        'tech': 'React JS, CSS, React-bootstrap.'
     },
     {
         'id': 'goingtochile2',
