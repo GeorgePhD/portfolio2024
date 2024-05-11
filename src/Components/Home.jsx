@@ -7,7 +7,7 @@ const Home = () => {
 {/*       <h2 className='home__subtitle'>Hola,</h2>
  */}
       <h1 className='home__title'> 
-        somos <strong className='span-black-color'>Let'sDevelopMe</strong> y desarrollamos <strong className='span-black-color'>sitios web.</strong> 
+        Somos <strong className='span-black-color'>Let'sDevelopMe</strong> y desarrollamos <strong className='span-black-color'>sitios web.</strong> 
       </h1>
 
       <p className='text-centered'>
