@@ -1,11 +1,13 @@
 import {Link} from 'react-router-dom';
+import Portfolio from '../Components/Portfolio'; 
+import Services from '../Components/Services'; 
+import Blog from '../Components/Blog'; 
+import Contact from '../Components/Contact'; 
 import '../../src/App.css';
 
 const Home = () => {
   return (
     <div className='home-page'>
-{/*       <h2 className='home__subtitle'>Hola,</h2>
- */}
       <h1 className='home__title'> 
         Somos <strong className='span-black-color'>Let'sDevelopMe</strong> y desarrollamos <strong className='span-black-color'>sitios web.</strong> 
       </h1>
@@ -20,7 +22,10 @@ const Home = () => {
       <Link to='/contact' className='home__links'>Puedes contactarme acá</Link> 
       <Link to='/portfolio' className='home__links'>Ver proyectos</Link>
       </div>
-      {/* <Portfolio /> */}
+      <Portfolio />
+      <Services />
+      <Blog />
+      <Contact />
     </div>
   )
 }

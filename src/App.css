@@ -10,12 +10,13 @@
     --hover-color: rgb(148, 148, 149);
     --transition-all--300: all 300ms ease-in-out;
     --name-font-size: 1.8rem;
-    --h1-font-size: 3rem;
-    --h2-font-size: 2.5rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2rem;
+    --p-font-size: 1.7rem;
+    --p-line-height: 1.4;
     --menu-font-size: 1.155rem;
     --link-font-size: 1.3rem;
     --link-font-size-l: 2rem;
-    --p-font-size: 1.5rem;
     --padding-content: 0.5rem;
     --footer-color: #1b263b;
 }
@@ -36,8 +37,9 @@ code {
         monospace;
 }
 
-.name {
+header.header div.logo h3.name {
     font-size: var(--name-font-size);
+    margin-top: 6rem;
 }
 
 .h1,
@@ -124,7 +126,7 @@ code {
     margin-top: 3.5rem;
     margin-left: 0.5rem;
     font-weight: 400;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .header nav {
@@ -265,21 +267,33 @@ footer.footer p {
     align-items: center;
     margin: 3rem 0;
     gap: 7rem;
+    border: 1px solid var(--secondary-color);
+    padding: 10rem;
+    box-shadow: 2px 2px 3px var(--box-shadow-color);
+    color: white;
 }
 
 .home-page-links a {
     font-size: 3rem;
     color: var(--main-color);
+    border: 1px solid var(--secondary-color);
+    padding: 3rem;
+    box-shadow: 2px 2px 3px var(--box-shadow-color);
     font-weight: bolder;
     text-decoration: none;
     transition: var(--transition-all--300);
+    border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    -ms-border-radius: 10rem;
+    -o-border-radius: 10rem;
 }
 
 .home-page-links a:hover {
     transform: scale(1.1);
-    background-color: black;
+    background-color: var(--secondary-color);
     color: white;
-    padding: 1rem;
+    padding: 3rem;
     box-shadow: var(--box-shadow-color);
     border-radius: 1rem;
 }
@@ -317,10 +331,10 @@ p.text-centered {
     color: var(--secondary-color);
 }
 
-a.home__links {
+/* a.home__links {
     font-size: 3rem;
     text-decoration: underline;
-}
+} */
 
 /* home layout ends here */
 
@@ -372,7 +386,7 @@ a.home__links {
 
 /* services page starts here */
 .services {
-    max-width: 1400px;
+    max-width: 1600px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -384,12 +398,34 @@ a.home__links {
 }
 
 .service {
+    width: 100%;
     padding: 2rem;
     border: 1px solid grey;
     border-radius: 0.5rem;
     box-shadow: 2px 3px 3px grey;
 }
+section.services article.service h2.h2 {
+    font-size: var(--p-font-size);
+   /*  width: 25rem; */
 
+}
+.service__1 {
+    flex-basis: 100%;
+}
+.service__2 {
+    flex-basis: 100%;
+}
+.service__3 {
+    flex-basis: 100%;
+}
+.service__4 {
+    flex-basis: 100%;
+}
+
+p.paragraph {
+    font-size: var(--p-font-size);
+    line-height: var(--p-line-height);
+}
 /* services page ends here */
 
 
@@ -404,14 +440,15 @@ a.home__links {
     padding: 5rem;
     gap: 3rem;
 }
-.blog__subtitle {
+h2.blog__subtitle {
     font-size: var(--h2-font-size);
     color: var(--text--color);
 }
-.blog__content {
-    font-size: 1.5rem;
+p.blog__content {
+    font-size: var(--p-font-size);
     color: var(--main-color);
     font-weight: 600;
+    line-height: 1.5;
 }
 
 /* BLog ends here */

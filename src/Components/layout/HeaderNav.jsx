@@ -1,10 +1,11 @@
 import { NavLink } from 'react-router-dom';
+import Logo from '../../../public/images/logo-removebg.png';
 import '../../../src/App.css';
 const HeaderNav = () => {
     return (
         <header className='header'>
-            <div className="logo"><span>G</span>
-                <h3 className='name'>Jorge Gamboa</h3>
+            <div className="logo"><span><img src={Logo} alt="" /></span>
+                <h3 className='name'>Let'sDevelopMe</h3>
             </div>
             <nav>
                 <ul className='nav'>
