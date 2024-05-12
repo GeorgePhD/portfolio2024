@@ -22,10 +22,10 @@ const Home = () => {
       <Link to='/contact' className='home__links'>Puedes contactarme acá</Link> 
       <Link to='/portfolio' className='home__links'>Ver proyectos</Link>
       </div>
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Services />
       <Blog />
-      <Contact />
+     {/*  <Contact /> */}
     </div>
   )
 }
