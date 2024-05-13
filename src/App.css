@@ -629,13 +629,15 @@ input[type='submit']:hover {
         font-size: 2rem;
     }
     .home-page-links {
-        padding: 0;
+        padding: 2rem;
         margin-top: 0;
         margin-bottom: 0;
+        /* background-color: var(--footer-color); */
     }
     div a.home__links {
         font-size: 1rem;
-        padding: 2rem;
+        padding: 2rem 3.5rem;
+        /* color: white; */
     }
     header.header div.logo span {
         display: block;

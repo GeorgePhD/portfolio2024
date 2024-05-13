@@ -19,8 +19,8 @@ const Home = () => {
       <h2 className='home__subtitle--2'>Te ayudamos a transformar tus ideas en una aplicación web.</h2>
 
       <div className="home-page-links">
-      <Link to='/contact' className='home__links'>Puedes contactarme acá</Link> 
-      <Link to='/portfolio' className='home__links'>Ver proyectos</Link>
+      <Link to='/contact' className='home__links'>contáctanos</Link> 
+      <Link to='/portfolio' className='home__links'>Proyectos</Link>
       </div>
       {/* <Portfolio /> */}
       <Services />
