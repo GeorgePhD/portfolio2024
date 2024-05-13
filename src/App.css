@@ -635,7 +635,7 @@ input[type='submit']:hover {
         /* background-color: var(--footer-color); */
     }
     div a.home__links {
-        font-size: 1rem;
+        font-size: 1.4rem;
         padding: 2rem 3.5rem;
         /* color: white; */
     }
