@@ -1,4 +1,7 @@
-
+import html from '../../public/images/html-5.png'
+import css from '../../public/images/css-3.png'
+import js from '../../public/images/js.png'
+import react from '../../public/images/react2.png'
 const Services = () => {
   return (
     <div className='page'>
@@ -6,7 +9,13 @@ const Services = () => {
 
       <section className="services">
         <article className="service service__1">
-          <h2 className='h2'>Desarrollo de aplicaciones web</h2>
+          <section className="service__content">
+            <h2 className='h2'>Desarrollo de aplicaciones web</h2>
+            <img className='services__logo' src={html} alt="html logo" />
+            <img className='services__logo' src={css} alt="html logo" />
+            <img className='services__logo' src={js} alt="html logo" />
+            <img className='services__logo' src={react} alt="html logo" />
+          </section>
           <p className="paragraph">El desarrollo de aplicaciones web se refiere al proceso de creación, diseño y construcción de software interactivo que se ejecuta en un navegador web. Estas aplicaciones están diseñadas para ser accesibles a través de Internet y pueden variar desde simples páginas web estáticas hasta aplicaciones web complejas y dinámicas que ofrecen funcionalidades avanzadas, como interacción en tiempo real, gestión de bases de datos, autenticación de usuarios, entre otras. El desarrollo de aplicaciones web generalmente implica el uso de tecnologías como HTML, CSS, JavaScript, así como frameworks y herramientas específicas del lado del cliente y del servidor para implementar la lógica de la aplicación y gestionar la interacción con el usuario.</p>
         </article>
         <article className="service service__2">
@@ -51,7 +60,7 @@ const Services = () => {
           <p className="paragraph">La fotografía en el contexto web se refiere al uso de imágenes digitales para mejorar la estética, la usabilidad y la efectividad de un sitio web. La fotografía web abarca una amplia gama de aplicaciones y técnicas, y desempeña un papel crucial en la creación de experiencias visuales atractivas y atractivas para los usuarios en línea. Algunos aspectos importantes de la fotografía en el diseño web incluyen:</p>
           <p className="paragraph">Imágenes de fondo: El uso de imágenes de fondo de alta calidad puede agregar profundidad y personalidad a un sitio web, creando una impresión visual impactante desde el primer vistazo.</p>
           <p className="paragraph">mágenes de productos: En el caso de sitios de comercio electrónico u otros sitios que presentan productos, las imágenes de productos de alta calidad son fundamentales para atraer y convencer a los clientes potenciales.</p>
-          <p className="paragraph">Fotografía de retrato: Las fotografías de retrato pueden utilizarse para agregar un toque humano y personal a un sitio web, especialmente en secciones como "Acerca de nosotros" o testimonios de clientes.</p>
+          <p className="paragraph">Fotografía de retrato: Las fotografías de retrato pueden utilizarse para agregar un toque humano y personal a un sitio web, especialmente en secciones como Acerca de nosotros o testimonios de clientes.</p>
           <p className="paragraph">Fotografía de stock: El uso de fotografías de stock puede proporcionar imágenes de alta calidad y profesionales para complementar el contenido del sitio web, cuando las imágenes personalizadas no están disponibles o no son prácticas.</p>
           <p className="paragraph">Optimización de imágenes: Es importante optimizar las imágenes para la web para garantizar tiempos de carga rápidos y un rendimiento óptimo del sitio web. Esto puede incluir la compresión de imágenes, el uso de formatos de archivo web adecuados y la implementación de técnicas de carga diferida.</p>
           <p className="paragraph">Consistencia visual: Mantener una coherencia visual en todas las imágenes del sitio web, incluida la paleta de colores, el estilo y la temática, ayuda a crear una experiencia de usuario cohesiva y profesional.</p>
