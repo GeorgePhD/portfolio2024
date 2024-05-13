@@ -6,8 +6,8 @@ export const jobs = [
         'id': 'EvelynAguilarSanchez',
         'name': 'EveArt',
         'img': 'images/drawing.jpg',
-        'description': 'Web de una artista.',
-        'url': 'https://www.evelynaguilarart.com',
+        'description': 'Artista.',
+        'url': 'www.evelynaguilarart.com',
         'tech': 'React JS,CSS, React-bootstrap.'
     },
     {
@@ -15,7 +15,7 @@ export const jobs = [
         'name': 'Tprotein',
         'img': 'images/tprotein.jpg',
         'description': 'suplementos nutricionales.',
-        'url': 'https://www.tprotein.cl',
+        'url': 'www.tprotein.cl',
         'tech': 'React JS, CSS, React-bootstrap.'
     },
     {
@@ -23,7 +23,7 @@ export const jobs = [
         'name': 'psiballest',
         'img': 'images/psiballest.jpg',
         'description': 'atención psicologíca.',
-        'url': 'https://www.psiballest.com',
+        'url': 'www.psiballest.com',
         'tech': 'HTML, CSS, JS, bootstrap.'
     },
     {
@@ -31,7 +31,7 @@ export const jobs = [
         'name': 'Los Maitenes Airsoft',
         'img': 'images/LosMaitenesChile.jpg',
         'description': 'Cancha de airsoft.',
-        'url': 'https://www.losmaitenesairsoft.cl',
+        'url': 'www.losmaitenesairsoft.cl',
         'tech': 'React JS, CSS, React-bootstrap.'
     },
     {
@@ -39,7 +39,7 @@ export const jobs = [
         'name': 'fotografiasds',
         'img': 'images/fotografiasds.jpg',
         'description': 'fotografías de paisajes del sur de chile.',
-        'url': 'https://www.fotografiasds.com',
+        'url': 'www.fotografiasds.com',
         'tech': 'HTML, CSS, JS, bootstrap.'
     },
     {
@@ -47,7 +47,7 @@ export const jobs = [
         'name': 'goingtochile',
         'img': 'images/goingtochile2.jpg',
         'description': 'Sitio turístico, viaja por chile.',
-        'url': 'https://www.goingtochile.com',
+        'url': 'www.goingtochile.com',
         'tech': 'HTML, CSS, JS, bootstrap.'
     }
 ];
