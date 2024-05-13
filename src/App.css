@@ -177,14 +177,18 @@ header.header div.logo h3.name {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    min-height: 15rem;
-    line-height: 10rem;
+   /*  min-height: 15rem; */
+    /* line-height: 10rem; */
     text-align: center;
-    margin-top: 3.5rem;
-    padding-top: 2.5rem;
+    /* margin-top: 3.5rem; */
+    /* padding-top: 2.5rem; */
     border-top: 0.2rem solid black;
     background: var(--footer-color);
     gap: 3rem;
+    min-height: 15rem;
+    line-height: 5rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
 }
 
 .footer__icons__container {
@@ -588,14 +592,28 @@ input[type='submit']:hover {
     padding-top: 1rem;
     gap: 2rem;
 }
+@media screen and (width <=430px) {
+    h1.home__title,
+    h1.home__title strong.span-black-color {
+        font-size: 4rem;
+    }
+    h2.home__subtitle--2,
+    p.text-centered {
+        font-size: 2rem;
+    }
+    div a.home__links {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    header.header div.logo span {
+        display: block;
+    }
+    header.header div.logo span img {
+        width: 4rem;
+        margin-bottom: 2rem;
 
-.footer p {
-    font-size: 1.2rem;
-    color: white;
+    }
 }
-
-/* footer ends here */
-
 @media screen and (width <=375px) {
     h2.home__subtitle {
         font-size: 1.5rem;
