@@ -652,6 +652,12 @@ input[type='submit']:hover {
     div.portfolio-container img {
         width: 40rem;
     }
+    .link {
+        font-size: 1.6rem;
+    }
+    h3.paragraph {
+        font-size: 1.2rem;
+    }
     /* .service__content p.paragraph {
         width: 60%;
     } */
