@@ -570,6 +570,21 @@ input[type='submit']:hover {
     }
 
     /* home layout ends here */
+
+    /* services page starts here */
+    .services__image__container {
+        gap: 3rem;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .services__image {
+        width: 25%;
+        margin-top: 1rem;
+    }
+    .services__ul {
+        padding: 3rem;
+    }
+    /* services page ends here */
     /* footer starts here */
     .footer {
         min-height: 15rem;
@@ -626,8 +641,14 @@ input[type='submit']:hover {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
     }
-
     /* header ends here */
+    .services__image {
+        width: 27%;
+        margin-top: 1rem;
+    }
+    .services__ul {
+        padding: 3rem;
+    }
 }
 
 /* footer starts here */
@@ -638,7 +659,7 @@ input[type='submit']:hover {
     padding-top: 1rem;
     gap: 2rem;
 }
-@media screen and (width <=430px) {
+@media screen and (width <= 430px) {
     h1.home__title,
     h1.home__title strong.span-black-color {
         font-size: 4rem;
@@ -700,27 +721,35 @@ input[type='submit']:hover {
     a.home__links {
         font-size: 1.1rem;
     }
-
+    .services__image__container {
+        gap: 2rem;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+    .services__image {
+        width: 43%;
+    }
+    .services__ul {
+        padding: 2rem;
+    }
+    .services__ul li {
+        text-wrap: pretty;
+        margin-bottom: 1.5rem;
+    }
     div.portfolio-container img {
-        width: 37rem;
+        width: 35rem;
     }
     .footer {
         min-height: 5rem;
         line-height: 5rem;
         gap: 1.5rem;
     }
-
     ul.nav li a {
         font-size: 1rem;
     }
 
 }
 
-@media screen and (width <=394px) {
-    div.portfolio-container img {
-        width: 35rem;
-    }
-}
 @media screen and (width <=321px) {
     div.portfolio-container img {
         width: 30rem;
