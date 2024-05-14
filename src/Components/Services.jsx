@@ -22,13 +22,18 @@ const Services = () => {
           <p className="paragraph">El desarrollo de aplicaciones web es el proceso de crear software interactivo para navegadores web. Estas aplicaciones pueden ser simples páginas estáticas o complejas aplicaciones dinámicas con funciones avanzadas. Utilizan tecnologías como HTML, CSS, JavaScript y frameworks específicos para implementar la lógica y la interacción con el usuario.</p>
           <div className="services__image__container">
               <img src={Image1} className="services__image" alt="" />
-              <img src={Image2} className="services__image" alt="" />
+              <img src={Image2} className="services__image middle__image" alt="" />
               <img src={Image3} className="services__image" alt="" />
-            </div>
+          </div>
         </article>
         <article className="service service__2">
           <h2 className='h2'>Landing page</h2>
           <p className="paragraph">Una landing page es una página web diseñada para convertir visitantes en clientes potenciales. Forma parte de una estrategia de marketing digital y está optimizada para acciones específicas como suscripciones, descargas o compras. Su diseño es simple y enfocado en la acción deseada, con contenido persuasivo y claras llamadas a la acción. Su eficacia se mide por la tasa de conversión, el porcentaje de visitantes que realizan la acción deseada.</p>
+          <div className="services__image__container">
+              <img src={Image1} className="services__image" alt="" />
+              <img src={Image2} className="services__image" alt="" />
+              <img src={Image3} className="services__image" alt="" />
+          </div>
         </article>
         <article className="service service__3">
           <h2 className='h2'>Desarrollo de Software Personalizado</h2>

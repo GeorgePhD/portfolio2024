@@ -457,7 +457,7 @@ h2.blog__subtitle {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
     margin: 0 auto;
     padding: 3rem;
 }
@@ -572,17 +572,24 @@ input[type='submit']:hover {
     /* home layout ends here */
 
     /* services page starts here */
+    article.service {
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-bottom: 1rem;
+    }
     .services__image__container {
-        gap: 3rem;
+        gap: 1rem;
         margin: 0 auto;
         padding: 1rem;
     }
     .services__image {
-        width: 25%;
+        width: 16rem;
         margin-top: 1rem;
     }
     .services__ul {
         padding: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     /* services page ends here */
     /* footer starts here */
@@ -643,9 +650,14 @@ input[type='submit']:hover {
     }
     /* header ends here */
     .services__image {
-        width: 27%;
+        width: 11rem;
         margin-top: 1rem;
+        padding: 0;
     }
+    /* .services__image.middle__image {
+        width: 100%;
+        opacity: 70%;
+    } */
     .services__ul {
         padding: 3rem;
     }
@@ -698,6 +710,9 @@ input[type='submit']:hover {
     h3.paragraph {
         font-size: 1.2rem;
     }
+    .services__image {
+        width: 10rem;
+    }
     /* .service__content p.paragraph {
         width: 60%;
     } */
@@ -727,7 +742,7 @@ input[type='submit']:hover {
         padding: 0.5rem;
     }
     .services__image {
-        width: 43%;
+        width: 9rem;
     }
     .services__ul {
         padding: 2rem;
@@ -753,6 +768,9 @@ input[type='submit']:hover {
 @media screen and (width <=321px) {
     div.portfolio-container img {
         width: 30rem;
+    }
+    .services__image {
+        width: 7rem;
     }
 }
 
