@@ -649,6 +649,9 @@ input[type='submit']:hover {
     article.service {
         padding: 0;
     }
+    div.portfolio-container img {
+        width: 42rem;
+    }
     /* .service__content p.paragraph {
         width: 60%;
     } */
