@@ -451,6 +451,25 @@ h2.blog__subtitle {
 .services__logo {
     width: 3rem;
 }
+.services__image__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+.services__image {
+    width: 30%;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px var(--box-shadow-color);
+    margin-top: 2rem;
+}
+.services__ul {
+    padding: 3rem;
+}
 p.paragraph {
     font-size: var(--p-font-size);
     line-height: var(--p-line-height);

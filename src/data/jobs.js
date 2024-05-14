@@ -51,3 +51,4 @@ export const jobs = [
         'tech': 'HTML, CSS, JS, bootstrap.'
     }
 ];
+

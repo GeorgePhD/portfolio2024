@@ -5,6 +5,12 @@ import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
 
+  const urlCLeaned = (url) => {
+
+    return url.replace(/^https?:\/\//, '');
+
+}
+
   return (
 
     <div>
@@ -23,7 +29,7 @@ const Portfolio = () => {
                 <Link to={`/Projects/${job.name}`} className='link link-l'>{job.name}</Link>
               </h2>
               <p className="paragraph">{job.description}</p>
-              <Link to={job.url} className='link' target='_blank' rel="noreferrer">{job.url}</Link>
+              <Link to={job.url} className='link' target='_blank' rel="noreferrer">{urlCLeaned(job.url)}</Link>
               <h3 className='paragraph'> tecnologías: {job.tech}</h3>
             </article>
           );

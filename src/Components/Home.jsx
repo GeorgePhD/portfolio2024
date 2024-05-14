@@ -1,8 +1,8 @@
 import {Link} from 'react-router-dom';
-import Portfolio from '../Components/Portfolio'; 
+/* import Portfolio from '../Components/Portfolio'; */ 
 import Services from '../Components/Services'; 
-import Blog from '../Components/Blog'; 
-import Contact from '../Components/Contact'; 
+/* import Blog from '../Components/Blog'; */ 
+/* import Contact from '../Components/Contact'; */ 
 import '../../src/App.css';
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
       </div>
       {/* <Portfolio /> */}
       <Services />
-      <Blog />
+      {/* <Blog /> */}
      {/*  <Contact /> */}
     </div>
   )
