@@ -665,7 +665,7 @@ input[type='submit']:hover {
         margin-bottom: 0;
     } */
 }
-@media screen and (width <=375px) {
+@media screen and (width <=394px) {
     h2.home__subtitle {
         font-size: 1.5rem;
     }
@@ -682,6 +682,9 @@ input[type='submit']:hover {
         font-size: 1.1rem;
     }
 
+    div.portfolio-container img {
+        width: 37rem;
+    }
     .footer {
         min-height: 5rem;
         line-height: 5rem;
@@ -694,5 +697,15 @@ input[type='submit']:hover {
 
 }
 
+@media screen and (width <=394px) {
+    div.portfolio-container img {
+        width: 35rem;
+    }
+}
+@media screen and (width <=321px) {
+    div.portfolio-container img {
+        width: 30rem;
+    }
+}
 
 /* responsive design ends here */
