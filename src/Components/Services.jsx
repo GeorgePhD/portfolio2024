@@ -11,6 +11,23 @@ const Services = () => {
       <h1 className='h1'>Servicios</h1>
 
       <section className="services">
+        <article className="service service__3">
+          <section className="service__content">
+            <h2 className='h2'>Desarrollo de Software Personalizado</h2>
+            <img className='services__logo' src={html} alt="html logo" />
+            <img className='services__logo' src={css} alt="html logo" />
+            <img className='services__logo' src={js} alt="html logo" />
+            <img className='services__logo' src={react} alt="html logo" />
+          </section>
+          <p className="paragraph">El desarrollo de software personalizado es el proceso de crear soluciones de software únicas para las necesidades específicas de una empresa u organización. A diferencia del software comercial estándar, que está diseñado para un amplio mercado, el software personalizado se desarrolla desde cero o se adapta significativamente para cumplir con los requisitos específicos del cliente.</p>
+          <p className="paragraph">El desarrollo de software personalizado incluye analizar los requisitos del cliente, diseñar, desarrollar, probar e implementar la solución, y trabajar estrechamente con el cliente para asegurar que el software cumpla con sus necesidades y expectativas.</p>
+          <p className="paragraph">El desarrollo de software personalizado abarca aplicaciones como ERP, CRM, aplicaciones móviles, soluciones de comercio electrónico, CMS, y herramientas de análisis de datos. Su principal ventaja es ofrecer soluciones adaptadas a las necesidades específicas del cliente, mejorando la eficiencia operativa, productividad y competitividad.</p>
+          <div className="services__image__container">
+              <img src={Image1} className="services__image" alt="" />
+              <img src={Image2} className="services__image middle__image" alt="" />
+              <img src={Image3} className="services__image" alt="" />
+          </div>
+        </article>
         <article className="service service__1">
           <section className="service__content">
             <h2 className='h2'>Desarrollo de aplicaciones web</h2>
@@ -19,7 +36,7 @@ const Services = () => {
             <img className='services__logo' src={js} alt="html logo" />
             <img className='services__logo' src={react} alt="html logo" />
           </section>
-          <p className="paragraph">El desarrollo de aplicaciones web es el proceso de crear software interactivo para navegadores web. Estas aplicaciones pueden ser simples páginas estáticas o complejas aplicaciones dinámicas con funciones avanzadas. Utilizan tecnologías como HTML, CSS, JavaScript y frameworks específicos para implementar la lógica y la interacción con el usuario.</p>
+          <p className="paragraph">El desarrollo de aplicaciones web es el proceso de crear software interactivo para navegadores web. Estas aplicaciones pueden ser simples páginas estáticas o complejas aplicaciones dinámicas con funciones avanzadas. Utilizan tecnologías como HTML, CSS, JavaScript y frameworks específicos como React JS, VueJS, Angular, para implementar la lógica y la interacción con el usuario.</p>
           <div className="services__image__container">
               <img src={Image1} className="services__image" alt="" />
               <img src={Image2} className="services__image middle__image" alt="" />
@@ -27,8 +44,14 @@ const Services = () => {
           </div>
         </article>
         <article className="service service__2">
-          <h2 className='h2'>Landing page</h2>
-          <p className="paragraph">Una landing page es una página web diseñada para convertir visitantes en clientes potenciales. Forma parte de una estrategia de marketing digital y está optimizada para acciones específicas como suscripciones, descargas o compras. Su diseño es simple y enfocado en la acción deseada, con contenido persuasivo y claras llamadas a la acción. Su eficacia se mide por la tasa de conversión, el porcentaje de visitantes que realizan la acción deseada.</p>
+          <section className="service__content">
+            <h2 className='h2'>Landing page</h2>
+            <img className='services__logo' src={html} alt="html logo" />
+            <img className='services__logo' src={css} alt="html logo" />
+            <img className='services__logo' src={js} alt="html logo" />
+            <img className='services__logo' src={react} alt="html logo" />
+          </section>
+          <p className="paragraph">Una landing page es una página web diseñada para convertir visitantes en clientes potenciales. Forma parte de una estrategia de marketing digital y está optimizada para acciones específicas como suscripciones, descargas o compras. Su diseño es simple y enfocado en la acción deseada, con contenido persuasivo y claras llamadas a la acción.</p>
           <div className="services__image__container">
               <img src={Image1} className="services__image" alt="" />
               <img src={Image2} className="services__image" alt="" />
@@ -36,20 +59,36 @@ const Services = () => {
           </div>
         </article>
         <article className="service service__3">
-          <h2 className='h2'>Desarrollo de Software Personalizado</h2>
-          <p className="paragraph">El desarrollo de software personalizado es el proceso de crear soluciones de software únicas para las necesidades específicas de una empresa u organización. A diferencia del software comercial estándar, que está diseñado para un amplio mercado, el software personalizado se desarrolla desde cero o se adapta significativamente para cumplir con los requisitos específicos del cliente.</p>
-          <p className="paragraph">El desarrollo de software personalizado incluye analizar los requisitos del cliente, diseñar, desarrollar, probar e implementar la solución, y trabajar estrechamente con el cliente para asegurar que el software cumpla con sus necesidades y expectativas.</p>
-          <p className="paragraph">El desarrollo de software personalizado abarca aplicaciones como ERP, CRM, aplicaciones móviles, soluciones de comercio electrónico, CMS, y herramientas de análisis de datos. Su principal ventaja es ofrecer soluciones adaptadas a las necesidades específicas del cliente, mejorando la eficiencia operativa, productividad y competitividad.</p>
-        </article>
-        <article className="service service__3">
-          <h2 className='h2'>E-commerce</h2>
+          <section className="service__content">
+            <h2 className='h2'>E-commerce</h2>
+            <img className='services__logo' src={html} alt="html logo" />
+            <img className='services__logo' src={css} alt="html logo" />
+            <img className='services__logo' src={js} alt="html logo" />
+            <img className='services__logo' src={react} alt="html logo" />
+          </section>
           <p className="paragraph">El E-commerce es la compra y venta de bienes y servicios en línea. En el desarrollo de software, implica crear plataformas digitales para estas transacciones, desde simples tiendas en línea hasta complejos marketplaces..</p>
           <p className="paragraph">El desarrollo de software para E-commerce consiste en crear interfaces seguras y fáciles de usar para que los usuarios naveguen, compren y gestionen pedidos. Incluye características como gestión de inventario, pasarelas de pago y herramientas de marketing.</p>
           <p className="paragraph">El desarrollo de software para E-commerce es esencial para las empresas que desean expandir su alcance en línea y captar nuevos clientes. Utiliza tecnologías como HTML, CSS, JavaScript y frameworks especializados como Shopify o Magento para crear plataformas que brinden una experiencia de compra segura y conveniente.</p>
+          <div className="services__image__container">
+              <img src={Image1} className="services__image" alt="" />
+              <img src={Image2} className="services__image middle__image" alt="" />
+              <img src={Image3} className="services__image" alt="" />
+          </div>
         </article>
         <article className="service service__3">
-          <h2 className='h2'>Mantenimiento y Soporte</h2>
+          <section className="service__content">
+            <h2 className='h2'>Mantenimiento y Soporte</h2>
+            <img className='services__logo' src={html} alt="html logo" />
+            <img className='services__logo' src={css} alt="html logo" />
+            <img className='services__logo' src={js} alt="html logo" />
+            <img className='services__logo' src={react} alt="html logo" />
+          </section>
           <p className="paragraph">El mantenimiento y soporte de software asegura el funcionamiento óptimo y libre de errores de una aplicación o sistema después de su implementación inicial. Esto es crucial para mantener su rendimiento, seguridad y fiabilidad a largo plazo. Las actividades pueden incluir:</p>
+          <div className="services__image__container">
+              <img src={Image1} className="services__image" alt="" />
+              <img src={Image2} className="services__image middle__image" alt="" />
+              <img src={Image3} className="services__image" alt="" />
+          </div>
           <ul className="services__ul">
             <li><p className="paragraph">Actualizaciones de software: Implementación de parches de seguridad, correcciones de errores y mejoras de funcionalidad para mantener el software actualizado y compatible con los cambios en el entorno tecnológico.</p></li>
             <li><p className="paragraph">Monitoreo y diagnóstico: Supervisión continua del rendimiento del software, identificación y resolución proactiva de problemas de rendimiento, disponibilidad o seguridad.</p></li>
@@ -60,8 +99,19 @@ const Services = () => {
           </ul>
         </article>
         <article className="service service__3">
-          <h2 className='h2'>Consultoría Tecnológica</h2>
+          <section className="service__content">
+            <h2 className='h2'>Consultoría Tecnológica</h2>
+            <img className='services__logo' src={html} alt="html logo" />
+            <img className='services__logo' src={css} alt="html logo" />
+            <img className='services__logo' src={js} alt="html logo" />
+            <img className='services__logo' src={react} alt="html logo" />
+          </section>
           <p className="paragraph">Los consultores tecnológicos son expertos que brindan orientación especializada sobre cómo aprovechar la tecnología para alcanzar objetivos comerciales o estratégicos. Ofrecen soluciones adaptadas a desafíos tecnológicos específicos, proporcionando recomendaciones personalizadas.</p>
+          <div className="services__image__container">
+              <img src={Image1} className="services__image" alt="" />
+              <img src={Image2} className="services__image middle__image" alt="" />
+              <img src={Image3} className="services__image" alt="" />
+          </div>
           <ul className="services__ul">
             <li><p className="paragraph">Análisis de necesidades: Evaluación de las necesidades y objetivos del cliente para identificar oportunidades de mejora y áreas donde la tecnología puede proporcionar beneficios significativos.</p></li>
             <li><p className="paragraph">Estrategia tecnológica: Desarrollo de una estrategia tecnológica a largo plazo que alinee los recursos tecnológicos con los objetivos comerciales de la organización.</p></li>
@@ -73,8 +123,19 @@ const Services = () => {
           </ul>
         </article>
         <article className="service service__4">
-          <h2 className='h2'>Fotografía</h2>
+          <section className="service__content">
+            <h2 className='h2'>Fotografía</h2>
+            <img className='services__logo' src={html} alt="html logo" />
+            <img className='services__logo' src={css} alt="html logo" />
+            <img className='services__logo' src={js} alt="html logo" />
+            <img className='services__logo' src={react} alt="html logo" />
+          </section>
           <p className="paragraph">La fotografía web mejora la estética y la usabilidad de un sitio mediante imágenes digitales. Es fundamental para crear experiencias visuales atractivas en línea. Aspectos clave incluyen:</p>
+          <div className="services__image__container">
+              <img src={Image1} className="services__image" alt="" />
+              <img src={Image2} className="services__image middle__image" alt="" />
+              <img src={Image3} className="services__image" alt="" />
+          </div>
             <ul className="services__ul">
               <li><p className="paragraph">Imágenes de fondo: El uso de imágenes de fondo de alta calidad puede agregar profundidad y personalidad a un sitio web, creando una impresión visual impactante desde el primer vistazo.</p></li>
               <li><p className="paragraph">mágenes de productos: En el caso de sitios de comercio electrónico u otros sitios que presentan productos, las imágenes de productos de alta calidad son fundamentales para atraer y convencer a los clientes potenciales.</p></li>
