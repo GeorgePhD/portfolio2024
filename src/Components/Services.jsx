@@ -65,7 +65,7 @@ const Services = () => {
             <img className='services__logo' src={js} alt="html logo" />
             <img className='services__logo' src={react} alt="html logo" />
           </section>
-          <p className="paragraph">El E-commerce es la compra y venta de bienes y servicios en línea. En el desarrollo de software, implica crear plataformas digitales para estas transacciones, desde simples tiendas en línea hasta complejos marketplaces..</p>
+          <p className="paragraph">El E-commerce es la compra y venta de bienes y servicios en línea. En el desarrollo de software, implica crear plataformas digitales para estas transacciones, desde simples tiendas en línea hasta complejos marketplaces.</p>
           <p className="paragraph">El desarrollo de software para E-commerce consiste en crear interfaces seguras y fáciles de usar para que los usuarios naveguen, compren y gestionen pedidos. Incluye características como gestión de inventario, pasarelas de pago y herramientas de marketing.</p>
           <p className="paragraph">El desarrollo de software para E-commerce es esencial para las empresas que desean expandir su alcance en línea y captar nuevos clientes. Utiliza tecnologías como HTML, CSS, JavaScript y frameworks específicos como React JS, VueJS, Angular y/o otros especializados como Shopify o Wordpress para crear plataformas que brinden una experiencia de compra segura y conveniente.</p>
           <div className="services__image__container">
