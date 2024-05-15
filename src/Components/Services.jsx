@@ -21,7 +21,6 @@ const Services = () => {
           </section>
           <p className="paragraph">El desarrollo de software personalizado es el proceso de crear soluciones de software únicas para las necesidades específicas de una empresa u organización. A diferencia del software comercial estándar, que está diseñado para un amplio mercado, el software personalizado se desarrolla desde cero o se adapta significativamente para cumplir con los requisitos específicos del cliente.</p>
           <p className="paragraph">El desarrollo de software personalizado incluye analizar los requisitos del cliente, diseñar, desarrollar, probar e implementar la solución, y trabajar estrechamente con el cliente para asegurar que el software cumpla con sus necesidades y expectativas.</p>
-          <p className="paragraph">El desarrollo de software personalizado abarca aplicaciones como ERP, CRM, aplicaciones móviles, soluciones de comercio electrónico, CMS, y herramientas de análisis de datos. Su principal ventaja es ofrecer soluciones adaptadas a las necesidades específicas del cliente, mejorando la eficiencia operativa, productividad y competitividad.</p>
           <div className="services__image__container">
               <img src={Image1} className="services__image" alt="" />
               <img src={Image2} className="services__image middle__image" alt="" />
@@ -68,7 +67,7 @@ const Services = () => {
           </section>
           <p className="paragraph">El E-commerce es la compra y venta de bienes y servicios en línea. En el desarrollo de software, implica crear plataformas digitales para estas transacciones, desde simples tiendas en línea hasta complejos marketplaces..</p>
           <p className="paragraph">El desarrollo de software para E-commerce consiste en crear interfaces seguras y fáciles de usar para que los usuarios naveguen, compren y gestionen pedidos. Incluye características como gestión de inventario, pasarelas de pago y herramientas de marketing.</p>
-          <p className="paragraph">El desarrollo de software para E-commerce es esencial para las empresas que desean expandir su alcance en línea y captar nuevos clientes. Utiliza tecnologías como HTML, CSS, JavaScript y frameworks especializados como Shopify o Magento para crear plataformas que brinden una experiencia de compra segura y conveniente.</p>
+          <p className="paragraph">El desarrollo de software para E-commerce es esencial para las empresas que desean expandir su alcance en línea y captar nuevos clientes. Utiliza tecnologías como HTML, CSS, JavaScript y frameworks específicos como React JS, VueJS, Angular y/o otros especializados como Shopify o Wordpress para crear plataformas que brinden una experiencia de compra segura y conveniente.</p>
           <div className="services__image__container">
               <img src={Image1} className="services__image" alt="" />
               <img src={Image2} className="services__image middle__image" alt="" />
@@ -138,7 +137,7 @@ const Services = () => {
           </div>
             <ul className="services__ul">
               <li><p className="paragraph">Imágenes de fondo: El uso de imágenes de fondo de alta calidad puede agregar profundidad y personalidad a un sitio web, creando una impresión visual impactante desde el primer vistazo.</p></li>
-              <li><p className="paragraph">mágenes de productos: En el caso de sitios de comercio electrónico u otros sitios que presentan productos, las imágenes de productos de alta calidad son fundamentales para atraer y convencer a los clientes potenciales.</p></li>
+              <li><p className="paragraph">Imágenes de productos: En el caso de sitios de comercio electrónico u otros sitios que presentan productos, las imágenes de productos de alta calidad son fundamentales para atraer y convencer a los clientes potenciales.</p></li>
               <li><p className="paragraph">Fotografía de retrato: Las fotografías de retrato pueden utilizarse para agregar un toque humano y personal a un sitio web, especialmente en secciones como Acerca de nosotros o testimonios de clientes.</p></li>
               <li><p className="paragraph">Fotografía de stock: El uso de fotografías de stock puede proporcionar imágenes de alta calidad y profesionales para complementar el contenido del sitio web, cuando las imágenes personalizadas no están disponibles o no son prácticas.</p></li>
               <li><p className="paragraph">Optimización de imágenes: Es importante optimizar las imágenes para la web para garantizar tiempos de carga rápidos y un rendimiento óptimo del sitio web. Esto puede incluir la compresión de imágenes, el uso de formatos de archivo web adecuados y la implementación de técnicas de carga diferida.</p></li>
