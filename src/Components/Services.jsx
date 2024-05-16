@@ -16,6 +16,13 @@ import Image11 from '../../public/images/ecommerce-2.png'
 import Image12 from '../../public/images/ecommerce-3.png'
 import Image13 from '../../public/images/support-1.png'
 import Image14 from '../../public/images/support-2.png'
+import Image15 from '../../public/images/support-3.png'
+import Image16 from '../../public/images/consulting-1.png'
+import Image17 from '../../public/images/consulting-2.png'
+import Image18 from '../../public/images/consulting-3.png'
+import Image19 from '../../public/images/pictures-1.png'
+import Image20 from '../../public/images/pictures-2.png'
+import Image21 from '../../public/images/pictures-3.png'
 const Services = () => {
   return (
     <div className='page'>
@@ -97,7 +104,7 @@ const Services = () => {
           <div className="services__image__container">
               <img src={Image13} className="services__image" alt="" />
               <img src={Image14} className="services__image middle__image" alt="" />
-              <img src={Image13} className="services__image" alt="" />
+              <img src={Image15} className="services__image" alt="" />
           </div>
           <ul className="services__ul">
             <li><p className="paragraph">Actualizaciones de software: Implementación de parches de seguridad, correcciones de errores y mejoras de funcionalidad para mantener el software actualizado y compatible con los cambios en el entorno tecnológico.</p></li>
@@ -118,9 +125,9 @@ const Services = () => {
           </section>
           <p className="paragraph">Los consultores tecnológicos son expertos que brindan orientación especializada sobre cómo aprovechar la tecnología para alcanzar objetivos comerciales o estratégicos. Ofrecen soluciones adaptadas a desafíos tecnológicos específicos, proporcionando recomendaciones personalizadas.</p>
           <div className="services__image__container">
-              <img src={Image1} className="services__image" alt="" />
-              <img src={Image2} className="services__image middle__image" alt="" />
-              <img src={Image3} className="services__image" alt="" />
+              <img src={Image16} className="services__image" alt="" />
+              <img src={Image17} className="services__image middle__image" alt="" />
+              <img src={Image18} className="services__image" alt="" />
           </div>
           <ul className="services__ul">
             <li><p className="paragraph">Análisis de necesidades: Evaluación de las necesidades y objetivos del cliente para identificar oportunidades de mejora y áreas donde la tecnología puede proporcionar beneficios significativos.</p></li>
@@ -142,9 +149,9 @@ const Services = () => {
           </section>
           <p className="paragraph">La fotografía web mejora la estética y la usabilidad de un sitio mediante imágenes digitales. Es fundamental para crear experiencias visuales atractivas en línea. Aspectos clave incluyen:</p>
           <div className="services__image__container">
-              <img src={Image1} className="services__image" alt="" />
-              <img src={Image2} className="services__image middle__image" alt="" />
-              <img src={Image3} className="services__image" alt="" />
+              <img src={Image19} className="services__image" alt="" />
+              <img src={Image20} className="services__image middle__image" alt="" />
+              <img src={Image21} className="services__image" alt="" />
           </div>
             <ul className="services__ul">
               <li><p className="paragraph">Imágenes de fondo: El uso de imágenes de fondo de alta calidad puede agregar profundidad y personalidad a un sitio web, creando una impresión visual impactante desde el primer vistazo.</p></li>
