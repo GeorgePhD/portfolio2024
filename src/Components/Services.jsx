@@ -5,6 +5,17 @@ import react from '../../public/images/react2.png'
 import Image1 from '../../public/images/services__img (1).jpg'
 import Image2 from '../../public/images/services__img (2).jpg'
 import Image3 from '../../public/images/services__img (3).jpg'
+import Image4 from '../../public/images/web-app-1.png'
+import Image5 from '../../public/images/web-app-2.png'
+import Image6 from '../../public/images/web-app-3.png'
+import Image7 from '../../public/images/landing-page-1.png'
+import Image8 from '../../public/images/landing-page-2.png'
+import Image9 from '../../public/images/landing-page-3.png'
+import Image10 from '../../public/images/ecommerce-1.png'
+import Image11 from '../../public/images/ecommerce-2.png'
+import Image12 from '../../public/images/ecommerce-3.png'
+import Image13 from '../../public/images/support-1.png'
+import Image14 from '../../public/images/support-2.png'
 const Services = () => {
   return (
     <div className='page'>
@@ -37,9 +48,9 @@ const Services = () => {
           </section>
           <p className="paragraph">El desarrollo de aplicaciones web es el proceso de crear software interactivo para navegadores web. Estas aplicaciones pueden ser simples páginas estáticas o complejas aplicaciones dinámicas con funciones avanzadas. Utilizan tecnologías como HTML, CSS, JavaScript y frameworks específicos como React JS, VueJS, Angular, para implementar la lógica y la interacción con el usuario.</p>
           <div className="services__image__container">
-              <img src={Image1} className="services__image" alt="" />
-              <img src={Image2} className="services__image middle__image" alt="" />
-              <img src={Image3} className="services__image" alt="" />
+              <img src={Image4} className="services__image" alt="" />
+              <img src={Image5} className="services__image middle__image" alt="" />
+              <img src={Image6} className="services__image" alt="" />
           </div>
         </article>
         <article className="service service__2">
@@ -52,9 +63,9 @@ const Services = () => {
           </section>
           <p className="paragraph">Una landing page es una página web diseñada para convertir visitantes en clientes potenciales. Forma parte de una estrategia de marketing digital y está optimizada para acciones específicas como suscripciones, descargas o compras. Su diseño es simple y enfocado en la acción deseada, con contenido persuasivo y claras llamadas a la acción.</p>
           <div className="services__image__container">
-              <img src={Image1} className="services__image" alt="" />
-              <img src={Image2} className="services__image" alt="" />
-              <img src={Image3} className="services__image" alt="" />
+              <img src={Image7} className="services__image" alt="" />
+              <img src={Image8} className="services__image" alt="" />
+              <img src={Image9} className="services__image" alt="" />
           </div>
         </article>
         <article className="service service__3">
@@ -69,9 +80,9 @@ const Services = () => {
           <p className="paragraph">El desarrollo de software para E-commerce consiste en crear interfaces seguras y fáciles de usar para que los usuarios naveguen, compren y gestionen pedidos. Incluye características como gestión de inventario, pasarelas de pago y herramientas de marketing.</p>
           <p className="paragraph">El desarrollo de software para E-commerce es esencial para las empresas que desean expandir su alcance en línea y captar nuevos clientes. Utiliza tecnologías como HTML, CSS, JavaScript y frameworks específicos como React JS, VueJS, Angular y/o otros especializados como Shopify o Wordpress para crear plataformas que brinden una experiencia de compra segura y conveniente.</p>
           <div className="services__image__container">
-              <img src={Image1} className="services__image" alt="" />
-              <img src={Image2} className="services__image middle__image" alt="" />
-              <img src={Image3} className="services__image" alt="" />
+              <img src={Image10} className="services__image" alt="" />
+              <img src={Image11} className="services__image middle__image" alt="" />
+              <img src={Image12} className="services__image" alt="" />
           </div>
         </article>
         <article className="service service__3">
@@ -84,9 +95,9 @@ const Services = () => {
           </section>
           <p className="paragraph">El mantenimiento y soporte de software asegura el funcionamiento óptimo y libre de errores de una aplicación o sistema después de su implementación inicial. Esto es crucial para mantener su rendimiento, seguridad y fiabilidad a largo plazo. Las actividades pueden incluir:</p>
           <div className="services__image__container">
-              <img src={Image1} className="services__image" alt="" />
-              <img src={Image2} className="services__image middle__image" alt="" />
-              <img src={Image3} className="services__image" alt="" />
+              <img src={Image13} className="services__image" alt="" />
+              <img src={Image14} className="services__image middle__image" alt="" />
+              <img src={Image13} className="services__image" alt="" />
           </div>
           <ul className="services__ul">
             <li><p className="paragraph">Actualizaciones de software: Implementación de parches de seguridad, correcciones de errores y mejoras de funcionalidad para mantener el software actualizado y compatible con los cambios en el entorno tecnológico.</p></li>

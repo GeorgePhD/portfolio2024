@@ -798,7 +798,26 @@ input[type='submit']:hover {
         margin: 0 auto;
         padding: 0.5rem;
     }
-
+    section.services article.service h2.h2 {
+        font-size: 1.5rem;
+        margin-top: -1.7rem;
+    }
+    .service__content {
+        display: block;
+    }
+    .services__logo {
+        width: 2.3rem;
+        margin-bottom: 0.3rem;
+    }
+    div.page section.services h1.h1 {
+        display: none;
+    }
+    p.paragraph {
+        font-size: 1.5rem;
+    }
+    .services__image__container {
+        margin-bottom: 1.5rem;
+    }
     .services__image {
         width: 9rem;
     }
