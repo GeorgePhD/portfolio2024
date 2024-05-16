@@ -34,7 +34,12 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
 }
-
+header.header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 90%;
+}
 header.header div.logo h3.name {
     font-size: var(--name-font-size);
     margin-top: 6rem;
