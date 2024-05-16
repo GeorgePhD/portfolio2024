@@ -8,9 +8,9 @@ import Image3 from '../../public/images/services__img (3).jpg'
 const Services = () => {
   return (
     <div className='page'>
-      <h1 className='h1'>Servicios</h1>
 
       <section className="services">
+      <h1 className='h1'>Servicios</h1>
         <article className="service service__3">
           <section className="service__content">
             <h2 className='h2'>Desarrollo de Software Personalizado</h2>

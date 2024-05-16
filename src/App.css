@@ -274,7 +274,9 @@ footer.footer p {
     margin: 3rem 0;
     gap: 7rem;
     /* border: 1px solid var(--secondary-color); */
-    padding: 10rem;
+    padding: 0 5rem;
+    /* padding-top: 0;
+    padding-bottom: 0; */
     /* box-shadow: 2px 2px 3px var(--box-shadow-color); */
     color: white;
 }
@@ -391,9 +393,9 @@ p.text-centered {
 
 
 /* services page starts here */
-.services,
-.blog__news {
-    max-width: 1400px;
+/* blog might be added to .services, .blog__news */
+.services {
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -404,6 +406,9 @@ p.text-centered {
     margin-top: 3rem;
 }
 
+h1.h1 {
+    margin-bottom: 0;
+}
 .service {
     padding: 2rem;
     /* border: 1px solid grey; */
@@ -413,11 +418,16 @@ p.text-centered {
 
 section.services article.service h2.h2,
 h2.blog__subtitle {
-    font-size: var(--p-font-size);
+    /* font-size: var(--p-font-size); */
+    font-size: var(--h2-font-size);
     /*  width: 25rem; */
 
 }
-
+div.page section.services h1.h1 {
+    width: 100%;
+    text-align: start;
+    padding: 2rem;
+}
 .service__1 {
     flex-basis: 100%;
 }
@@ -428,6 +438,7 @@ h2.blog__subtitle {
 
 .service__3 {
     flex-basis: 100%;
+    padding-top: 0;
 }
 
 .service__4 {
