@@ -167,6 +167,7 @@ header.header div.logo h3.name {
 }
 
 .footer {
+    max-width: 1600px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -630,20 +631,29 @@ input[type='submit']:hover {
 
     /* services page ends here */
     /* footer starts here */
-    .footer {
-        min-height: 15rem;
-        line-height: 20rem;
+    footer.footer {
+        max-height: 15rem;
+        line-height: 1rem;
         margin-top: 5rem;
         padding-top: 1rem;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
-    .footer p {
+    footer.footer p {
         font-size: 1.5rem;
         color: white;
     }
 }
-
+@media screen and (width <=588px) {
+    footer.footer p {
+        font-size: 1.2rem;
+        color: white;
+    }
+    .footer__icons__container {
+        gap: 1.2rem;
+        padding: 0;
+    }
+}
 /* footer ends here */
 @media screen and (width <=487px) {
 
@@ -701,16 +711,23 @@ input[type='submit']:hover {
     .services__ul {
         padding: 3rem;
     }
+    footer.footer {
+        margin-top: 0;
+    }
+    .footer__icons__container {
+        gap: 1.2rem;
+        padding: 0;
+    }
 }
 
 /* footer starts here */
-.footer {
+/* .footer {
     min-height: 15rem;
     line-height: 5rem;
     margin-top: 2rem;
     padding-top: 1rem;
     gap: 2rem;
-}
+} */
 
 @media screen and (width <=430px) {
 
@@ -773,6 +790,10 @@ input[type='submit']:hover {
     }
     .services__ul {
         padding: 1.5rem;
+    }
+    footer.footer {
+        min-height: 1rem;
+        line-height: 2rem;
     }
 }
 
