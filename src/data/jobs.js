@@ -5,7 +5,7 @@ export const jobs = [
     {
         'id': 'EvelynAguilarSanchez',
         'name': 'EveArt',
-        'img': 'images/drawing.jpg',
+        'img': 'images/eveweb.png',
         'description': 'Artista.',
         'url': 'https://www.evelynaguilarart.com',
         'tech': 'React JS,CSS, React-bootstrap.'
