@@ -766,9 +766,8 @@ input[type='submit']:hover {
 } */
 
 @media screen and (width <=430px) {
-    h1.home__title span,
-    h2.home__subtitle--2 span {
-        font-size: 2rem;
+    h1.home__title span {
+        font-size: 3.7rem;
         padding: 0;
     }
 
@@ -780,7 +779,7 @@ input[type='submit']:hover {
         margin: 1rem 0;
     } */
     .home__title strong.span-black-color span {
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
 
     p.text-centered span {
