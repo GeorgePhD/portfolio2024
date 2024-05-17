@@ -254,7 +254,15 @@ footer.footer p {
 
 /* home layout starts here */
 .home-page {
+    max-width: 1400px;
+    margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
 
 }
 
@@ -326,21 +334,24 @@ h1.home__title {
     text-align: center;
 }
 
-h2.home__subtitle--2 {
-    font-size: 5.3rem;
+h2.home__subtitle--2 span {
+    font-size: 2.5rem;
     color: black;
     font-weight: bolder;
     text-align: center;
-    padding: 2rem;
+    padding: 0.5rem;
+}
+span {
+    font-size: 5rem;
 }
 
-.home__title strong.span-black-color {
+.home__title strong.span-black-color span {
     font-size: 8rem;
     font-weight: bolder;
     color: black;
 }
 
-p.text-centered {
+p.text-centered span {
     font-size: 3.7rem;
     color: var(--secondary-color);
 }
@@ -587,12 +598,12 @@ input[type='submit']:hover {
         font-size: 2rem;
     }
 
-    h1.home__title,
-    h2.home__subtitle--2 {
+    h1.home__title span,
+    h2.home__subtitle--2 span {
         font-size: 3rem;
     }
 
-    .home__title strong.span-black-color {
+    .home__title strong.span-black-color span {
         font-size: 5rem;
     }
 
@@ -650,6 +661,26 @@ input[type='submit']:hover {
     }
 }
 @media screen and (width <=588px) {
+    h1.home__title span,
+    h2.home__subtitle--2 span {
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    .home-page h2 {
+        font-size: 3rem;
+    }
+
+    .home-page h1 { 
+        margin: 1rem 0;
+    }
+    .home__title strong.span-black-color span {
+        font-size: 4rem;
+    }
+
+    p.text-centered span {
+        font-size: 1.7rem;
+    }
     footer.footer p {
         font-size: 1.2rem;
         color: white;
@@ -735,23 +766,42 @@ input[type='submit']:hover {
 } */
 
 @media screen and (width <=430px) {
-
-    h1.home__title,
-    h1.home__title strong.span-black-color {
-        font-size: 4rem;
+    h1.home__title span,
+    h2.home__subtitle--2 span {
+        font-size: 2rem;
+        padding: 0;
     }
 
-    h2.home__subtitle--2,
+    .home-page h2 {
+        font-size: 1rem;
+    }
+
+    /* .home-page h1 { 
+        margin: 1rem 0;
+    } */
+    .home__title strong.span-black-color span {
+        font-size: 3rem;
+    }
+
+    p.text-centered span {
+        font-size: 1.7rem;
+    }
+    h1.home__title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    /* h1.home__title span,
+    h1.home__title strong.span-black-color {
+        font-size: 2rem;
+    }
+
+    h2.home__subtitle--2 span,
     p.text-centered {
         font-size: 2rem;
     }
-    .h1 {
-        font-size: 2rem;
-        margin-bottom: 0;
-    }
     p.paragraph {
         font-size: 1.4rem;
-    }
+    } */
     .home-page-links {
         padding: 2rem;
         margin-top: 0;
@@ -807,7 +857,7 @@ input[type='submit']:hover {
         font-size: 1.5rem;
     }
 
-    .home__title {
+    .home__title span {
         line-height: 4rem;
     }
 

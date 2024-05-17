@@ -1,6 +1,8 @@
 import './App.css'
 import MyRoutes from './router/MyRoutes';
-
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+gsap.registerPlugin(useGSAP);
 
 function App() {
   
