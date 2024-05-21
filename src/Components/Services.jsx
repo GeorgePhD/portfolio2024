@@ -23,7 +23,25 @@ import Image18 from '../../public/images/consulting-3.png'
 import Image19 from '../../public/images/pictures-1.png'
 import Image20 from '../../public/images/pictures-2.png'
 import Image21 from '../../public/images/pictures-3.png'
+
+import { gsap } from 'gsap';
+import { useEffect } from 'react';
+
+
 const Services = () => {
+
+  useEffect(() => {
+
+    gsap.to('.services__logo', {
+      scale: 1.1, // Scale up to 1.2 times the original size
+      repeat: -1, 
+      yoyo: true, 
+      ease: 'power1.inOut',
+      duration: 1
+    });
+  }, []);
+
+
   return (
     <div className='page'>
 
@@ -33,9 +51,9 @@ const Services = () => {
           <section className="service__content">
             <h2 className='h2'>Desarrollo de Software Personalizado</h2>
             <img className='services__logo' src={html} alt="html logo" />
-            <img className='services__logo' src={css} alt="html logo" />
-            <img className='services__logo' src={js} alt="html logo" />
-            <img className='services__logo' src={react} alt="html logo" />
+            <img className='services__logo' src={css} alt="css logo" />
+            <img className='services__logo' src={js} alt="javascript logo" />
+            <img className='services__logo' src={react} alt="react logo" />
           </section>
           <p className="paragraph">El desarrollo de software personalizado es el proceso de crear soluciones de software únicas para las necesidades específicas de una empresa u organización. A diferencia del software comercial estándar, que está diseñado para un amplio mercado, el software personalizado se desarrolla desde cero o se adapta significativamente para cumplir con los requisitos específicos del cliente.</p>
           <p className="paragraph">El desarrollo de software personalizado incluye analizar los requisitos del cliente, diseñar, desarrollar, probar e implementar la solución, y trabajar estrechamente con el cliente para asegurar que el software cumpla con sus necesidades y expectativas.</p>
