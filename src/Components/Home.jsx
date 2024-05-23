@@ -4,10 +4,11 @@ import Services from '../Components/Services';
 /* import Blog from '../Components/Blog'; */ 
 /* import Contact from '../Components/Contact'; */ 
 import '../../src/App.css';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef} from 'react';
 import { gsap } from 'gsap';
 
 const Home = () => {
+  
 
   const titleRef = useRef(null);
   const paragraphRef = useRef(null);
@@ -75,23 +76,25 @@ const Home = () => {
       ease: "power2.out"
     });
   }, []);
+  
 
   return (
     <>
+    <button className='change__language__button'>English</button>
     <div className='home-page'>
-      <h1 className='home__title' ref={titleRef}> 
-        Somos <strong className='span-black-color'>Let'sDevelopMe</strong> y desarrollamos <strong className='span-black-color' >sitios web.</strong> 
+      <h1 className='home__title' ref={titleRef}>Somos 
+      <strong className='span-black-color'>Let'sDevelopMe</strong> y desarrollamos <strong className='span-black-color'>Sitios web</strong> 
       </h1>
 
       <p className='text-centered' ref={paragraphRef}>
-      servicios de programación y desarrollo en todo tipo de proyectos web.
+      Servicios de programación y desarrollo en todo tipo de proyectos web.
       </p>
 
       <h2 className='home__subtitle--2' ref={subtitleRef}>Te ayudamos a transformar tus ideas en una aplicación web.</h2>
       </div>
       <div className="home-page-links">
-      <Link to='/contact' className='home__links'>contáctanos</Link> 
-      <Link to='/portfolio' className='home__links'>Proyectos</Link>
+      <Link to='/contact' className='home__links'>Contáctanos </Link> 
+        <Link to='/portfolio' className='home__links'>Proyectos</Link>
       </div>
     
       {/* <Portfolio /> */}

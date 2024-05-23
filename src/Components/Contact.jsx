@@ -13,6 +13,7 @@ const whatsapp = "https://api.whatsapp.com/send?phone=56922228694";
 const Contact = () => {
   return (
     <>
+    <button className='change__language__button'>English</button>
     {/* <div className='page'> */}
       <h1 className='h1'>Contacto</h1>
             <h2 className="link__title">Hazme click!</h2>

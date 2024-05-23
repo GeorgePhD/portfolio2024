@@ -20,20 +20,79 @@
     --padding-content: 0.5rem;
     --footer-color: #1b263b;
 }
+/* menu dark mode button starts here */
+.button__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.change__language__button {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+.change__language__button {
+    padding: 1rem 1rem;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: white;
 
+}
+.button__container button.menu__button {
+    padding: 1rem 1rem;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 0.5rem;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+.dark__mode__icon {
+    width: 40px;
+}
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    background-color: white;
+    color: black;
+    transition: background-color 600ms, color 600ms;
 }
 
-code {
+.menu__button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+/* Dark mode styles */
+body.dark-mode {
+    /* background-color: #161514; */
+    background: #B2FEFA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e0dada85, #d5e6e599);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e0dada85, #d5e6e599); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+/* body.dark-mode .menu__button {
+    background-color: white;
+    color: black;
+} */
+
+body.dark-mode .dark__mode__icon {
+    filter: invert(1);
+    /* Invert colors for the icon in dark mode */
+}
+
+/* menu dark mode button ends here */
+
+/* code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
-}
+} */
 header.header {
     position: sticky;
     top: 0;

@@ -26,7 +26,7 @@ import Image21 from '../../public/images/pictures-3.png'
 const Services = () => {
   return (
     <div className='page'>
-
+      <button className='change__language__button'>English</button>
       <section className="services">
       <h1 className='h1'>Servicios</h1>
         <article className="service service__3">
