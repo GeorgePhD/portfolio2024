@@ -20,7 +20,7 @@ const HeaderNav = () => {
     return (
         <header className='header'>
             <div className="logo"><span><img src={Logo} alt="" /></span>
-                <h3 className='name'>Let'sDevelopMe</h3>
+            <h3 className='name'>Let'sDevelopMe</h3>
             </div>
             <nav>
                 <ul className='nav'>

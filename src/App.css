@@ -92,16 +92,24 @@ body.dark-mode .dark__mode__icon {
 /* code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
+<<<<<<< HEAD
 } */
+=======
+}
+
+>>>>>>> cfa0f81f364a22a7fa123837fb328cad3a06b1b0
 header.header {
     position: sticky;
     top: 0;
     background-color: rgb(255, 255, 255);
     opacity: 90%;
 }
+
 header.header div.logo h3.name {
     font-size: var(--name-font-size);
     margin-top: 6rem;
+    font-weight: 900;
+    letter-spacing: 0.3rem;
 }
 
 .h1,
@@ -400,6 +408,7 @@ h2.home__subtitle--2 span {
     text-align: center;
     padding: 0.5rem;
 }
+
 span {
     font-size: 5rem;
 }
@@ -485,6 +494,7 @@ p.text-centered span {
 h1.h1 {
     margin-bottom: 0;
 }
+
 .service {
     padding: 2rem;
     /* border: 1px solid grey; */
@@ -499,11 +509,13 @@ h2.blog__subtitle {
     /*  width: 25rem; */
 
 }
+
 div.page section.services h1.h1 {
     width: 100%;
     text-align: start;
     padding: 2rem;
 }
+
 .service__1 {
     flex-basis: 100%;
 }
@@ -571,44 +583,54 @@ p.paragraph {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centers the containers horizontally */
-    gap: 1rem; /* Adds space between the containers */
+    justify-content: center;
+    /* Centers the containers horizontally */
+    gap: 1rem;
+    /* Adds space between the containers */
     padding: 10rem;
     padding-top: 6rem;
-    
+
 }
+
 .link__container {
     flex-basis: 30%;
     justify-content: center;
     align-items: center;
     text-align: center;
     border: 1px solid grey;
-    padding:10rem;
+    padding: 10rem;
     background-color: var(--text--color);
     border-radius: 1rem;
 }
+
 .link__title {
     text-align: center;
     font-size: 3rem;
     color: var(--secondary-color);
 }
+
 .contact__icons {
     font-size: 10rem;
     transition: all 300ms ease-in-out;
 }
+
 .contact__icons:hover {
     transform: scale(1.5);
 }
+
 .contact__icons.instagram {
     color: rgb(233, 140, 155);
-    
+
 }
+
 .contact__icons.whatsapp {
     color: rgb(9, 234, 9);
 }
+
 .contact__icons.email {
     color: rgb(185, 184, 184);
 }
+
 /* contact ends here */
 
 
@@ -618,11 +640,13 @@ p.paragraph {
     .services__image {
         width: 25rem;
     }
+
     .links__container {
         padding: 10rem;
         padding-top: 6rem;
-        
+
     }
+
     /* .link__title {
         text-align: center;
         font-size: 3rem;
@@ -632,15 +656,18 @@ p.paragraph {
         font-size: 8rem;
     }
 }
+
 @media screen and (width <=1096px) {
     .services__image {
         width: 20rem;
     }
+
     .links__container {
         padding: 0;
         padding-top: 6rem;
-        
+
     }
+
     /* .link__title {
         text-align: center;
         font-size: 3rem;
@@ -650,6 +677,7 @@ p.paragraph {
         font-size: 8rem;
     }
 }
+
 @media screen and (width <=769px) {
 
     header.header div.logo span img {
@@ -659,9 +687,11 @@ p.paragraph {
     header.header div.logo h3.name {
         font-size: 1.5rem;
     }
+
     .header li a {
         font-size: 1rem;
     }
+
     /* home layout starts here */
     h2.home__subtitle {
         font-size: 2rem;
@@ -737,19 +767,24 @@ p.paragraph {
         padding: 0;
         padding-top: 6rem;
     }
+
     .link__container {
         padding: 3rem;
         margin-top: 3rem;
         margin-bottom: 10rem;
     }
+
     .link__title {
         font-size: 2rem;
     }
+
     .contact__icons {
         font-size: 5rem;
     }
 }
+
 @media screen and (width <=588px) {
+
     h1.home__title span,
     h2.home__subtitle--2 span {
         font-size: 2rem;
@@ -760,9 +795,10 @@ p.paragraph {
         font-size: 3rem;
     }
 
-    .home-page h1 { 
+    .home-page h1 {
         margin: 1rem 0;
     }
+
     .home__title strong.span-black-color span {
         font-size: 4rem;
     }
@@ -770,15 +806,18 @@ p.paragraph {
     p.text-centered span {
         font-size: 1.7rem;
     }
+
     footer.footer p {
         font-size: 1.2rem;
         color: white;
     }
+
     .footer__icons__container {
         gap: 1.2rem;
         padding: 0;
     }
 }
+
 /* footer ends here */
 @media screen and (width <=487px) {
 
@@ -800,6 +839,7 @@ p.paragraph {
     header.header div.logo h3.name {
         display: none;
     }
+
     /*  .header .logo h3 {
         font-size: 1rem;
         margin-top: 1.5rem;
@@ -836,9 +876,11 @@ p.paragraph {
     .services__ul {
         padding: 3rem;
     }
+
     footer.footer {
         margin-top: 0;
     }
+
     .footer__icons__container {
         gap: 1.2rem;
         padding: 0;
@@ -874,13 +916,16 @@ p.paragraph {
     p.text-centered span {
         font-size: 1.7rem;
     }
+
     h1.home__title {
         font-size: 2rem;
         text-align: center;
     }
+
     h1.h1 {
         display: none;
     }
+
     .home-page-links {
         padding: 2rem;
         margin-top: 0;
@@ -922,35 +967,42 @@ p.paragraph {
     .services__image {
         width: 10rem;
     }
+
     .services__ul {
         padding: 1.5rem;
     }
+
     .links__container {
         padding: 0;
         margin-top: 3rem;
         margin-bottom: 10rem;
     }
+
     .link__title {
         display: block;
         margin-top: 3rem;
     }
+
     .link__container {
         padding: 1rem;
         margin-top: 0;
         margin-bottom: 0;
         flex-basis: 100%;
     }
+
     .contact__icons {
         font-size: 8rem;
         padding: 2.6rem;
     }
+
     .mask {
         border: 1px solid rgba(128, 128, 128, 0.273);
         border-radius: 1rem;
         box-shadow: 1px 1px 100px rgba(128, 128, 128, 0.346);
     }
+
     footer.footer {
-        margin-top: 3rem ;
+        margin-top: 3rem;
     }
 }
 
@@ -976,26 +1028,33 @@ p.paragraph {
         margin: 0 auto;
         padding: 0.5rem;
     }
+
     section.services article.service h2.h2 {
         font-size: 1.5rem;
         margin-top: -1.7rem;
     }
+
     .service__content {
         display: block;
     }
+
     .services__logo {
         width: 2.3rem;
         margin-bottom: 0.3rem;
     }
+
     div.page section.services h1.h1 {
         display: none;
     }
+
     p.paragraph {
         font-size: 1.5rem;
     }
+
     .services__image__container {
         margin-bottom: 1.5rem;
     }
+
     .services__image {
         width: 9rem;
     }
@@ -1033,23 +1092,28 @@ p.paragraph {
     .services__image {
         width: 7rem;
     }
+
     .links__container {
         padding: 0;
         margin-top: 3rem;
     }
+
     .link__title {
         display: block;
     }
+
     .link__container {
         padding: 1rem;
         margin-top: 0;
         margin-bottom: 0;
         flex-basis: 100%;
     }
+
     .contact__icons {
         font-size: 6rem;
         padding: 1rem;
     }
+
     footer.footer {
         margin-top: 4rem;
     }
