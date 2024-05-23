@@ -42,7 +42,14 @@
     cursor: pointer;
     background-color: var(--secondary-color);
     color: white;
-
+    transition: all 300ms ease-in-out;
+}
+.change__language__button:hover {
+    background-color: white;
+    color: var(--main-color);
+    border: 1px solid black;
+    font-weight: 400;
+    box-shadow: 2px 2px 7px var(--box-shadow-color);
 }
 .button__container button.menu__button {
     padding: 1rem 1rem;
@@ -92,12 +99,8 @@ body.dark-mode .dark__mode__icon {
 /* code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
-<<<<<<< HEAD
 } */
-=======
-}
 
->>>>>>> cfa0f81f364a22a7fa123837fb328cad3a06b1b0
 header.header {
     position: sticky;
     top: 0;
