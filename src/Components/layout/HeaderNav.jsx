@@ -17,10 +17,10 @@ const HeaderNav = () => {
         setLanguage(language === 'Spanish' ? 'English' : 'Spanish');
     };
 
-    return (
+    return (/* &apos; */
         <header className='header'>
             <div className="logo"><span><img src={Logo} alt="" /></span>
-            <h3 className='name'>Let'sDevelopMe</h3>
+            <h3 className='name'>Let&apos;sDevelopMe</h3>
             </div>
             <nav>
                 <ul className='nav'>
