@@ -571,6 +571,7 @@ div.page section.services h1.h1 {
 
 .services__ul {
     padding: 3rem;
+    padding-bottom: 0;
 }
 
 p.paragraph {
@@ -579,7 +580,42 @@ p.paragraph {
 }
 
 /* services page ends here */
-
+/* faq starts here */
+.faq__container {
+    display: block;
+    margin: 0 auto;
+    text-align: start;
+    padding: 3rem;
+    padding-top: 3rem;
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.faq__title {
+    font-size: var(--h1-font-size);
+    text-align: start;
+}
+.faq__subtitle {
+    font-size: var(--h2-font-size);
+    text-align: start;
+    margin-bottom: 1rem;
+}
+.faq__content {
+    font-size: var(--p-font-size);
+    text-align: start;
+    color: #ffffff;
+    line-height: 1.4;
+    font-weight: 600;
+}
+.faq__section__contaier {
+    padding: 1.5rem 3rem;
+    width: 100%;
+}
+/* faq ends here */
 /* contact starts here */
 .links__container {
     /* max-width: 1400px; */

@@ -23,7 +23,7 @@ import Image18 from '../../public/images/consulting-3.png'
 import Image19 from '../../public/images/pictures-1.png'
 import Image20 from '../../public/images/pictures-2.png'
 import Image21 from '../../public/images/pictures-3.png'
-
+import Faq from '../Components/faq';
 import { gsap } from 'gsap';
 import { useEffect } from 'react';
 
@@ -180,6 +180,7 @@ const Services = () => {
               <li><p className="paragraph">Consistencia visual: Mantener una coherencia visual en todas las imágenes del sitio web, incluida la paleta de colores, el estilo y la temática, ayuda a crear una experiencia de usuario cohesiva y profesional.</p></li>
             </ul>
         </article>
+        <Faq />
       </section>
     </div>
   )
