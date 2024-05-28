@@ -14,7 +14,7 @@ const Portfolio = () => {
   return (
 
     <div>
-    <button className='change__language__button'>English</button>
+    {/* <button className='change__language__button'>English</button> */}
     <h1 className='h1'>Portafolio</h1>
     
     <div className='portfolio-container'>
