@@ -66,14 +66,18 @@
     gap: 1rem;
 }
 
+/* .change__language__button {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+} */
+
 .change__language__button {
     display: flex;
     flex-direction: row;
     align-items: start;
     justify-content: start;
-}
-
-.change__language__button {
     padding: 1rem 1rem;
     border: 1px solid rgb(214, 214, 214);
     border-radius: 0.5rem;
@@ -120,14 +124,11 @@ body {
 }
 
 /* Dark mode styles */
-body.dark-mode {
+body.dark-mode{
     /* background-color: #161514; */
     background: #B2FEFA;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #e0dada85, #d5e6e599);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #e0dada85, #d5e6e599);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
 }
 
