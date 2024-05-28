@@ -15,19 +15,22 @@ const Contact = () => {
     <>
     {/* <button className='change__language__button'>English</button> */}
     {/* <div className='page'> */}
+    <div className="page">
       <h1 className='h1'>Contacto</h1>
-            <h2 className="link__title">Hazme click!</h2>
-      <section className="links__container">
-          <section className="link__container">
-            <Link to={instagram} target='_blank'><FontAwesomeIcon className='contact__icons instagram' icon={['fab', 'instagram']} /></Link>
-          </section>
-          <section className="link__container">
-            <Link to={whatsapp} target='_blank'><FontAwesomeIcon className='contact__icons whatsapp' icon={['fab', 'whatsapp']} /></Link>
-          </section>
-          <section className="link__container">
-            <a href={email} target='_blank'><FontAwesomeIcon className='contact__icons email' icon={['fas', 'envelope']} /></a>
-          </section>
-      </section>
+              <h2 className="link__title">Hazme click!</h2>
+        <section className="links__container">
+            <section className="link__container">
+              <Link to={instagram} target='_blank'><FontAwesomeIcon className='contact__icons instagram' icon={['fab', 'instagram']} /></Link>
+            </section>
+            <section className="link__container">
+              <Link to={whatsapp} target='_blank'><FontAwesomeIcon className='contact__icons whatsapp' icon={['fab', 'whatsapp']} /></Link>
+            </section>
+            <section className="link__container">
+              <a href={email} target='_blank'><FontAwesomeIcon className='contact__icons email' icon={['fas', 'envelope']} /></a>
+            </section>
+        </section>
+    </div>
+      
     {/* </div> */}
     </>
   );
