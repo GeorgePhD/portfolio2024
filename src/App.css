@@ -541,7 +541,9 @@ p.text-centered span {
     margin: 0 auto;
     margin-top: 3rem;
 }
-
+.article-link {
+    text-decoration: none;
+}
 h1.h1 {
     margin-bottom: 0;
 }

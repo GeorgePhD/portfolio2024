@@ -22,6 +22,7 @@ const Portfolio = () => {
       {
         jobs.map(job => { //you can return in 2 ways, the second one will be downsides.
           return (
+            <a href={job.url} className='article article-link' target='_blank' rel="noreferrer" key={job.id}>
             <article className='article' key={job.id}>
               <div className="mask">
                 <img className='img' src={job.img} alt='image'/>
@@ -30,9 +31,10 @@ const Portfolio = () => {
                 <Link to={`/Projects/${job.name}`} className='link link-l'>{job.name}</Link>
               </h2>
               <p className="paragraph">{job.description}</p>
-              <Link to={job.url} className='link' target='_blank' rel="noreferrer">{urlCLeaned(job.url)}</Link>
+              <p to={job.url} className='link' target='_blank' rel="noreferrer">{urlCLeaned(job.url)}</p>
               <h3 className='paragraph'> tecnologías: {job.tech}</h3>
             </article>
+            </a>
           );
         })
       }
