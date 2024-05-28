@@ -988,12 +988,23 @@ p.paragraph {
 } */
 
 @media screen and (width <=430px) {
+
+    .home-page,
+    .page { 
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header nav ul {
+        justify-content: flex-start;
+        align-items: center;
+    }
     .button__container button.menu__button {
         display: none;
     }
     .dark__mode__icon {
         width: 25px;
         margin: 0 1rem;
+        margin-left: 0;
     }
     h1.home__title span {
         font-size: 2.7rem;
@@ -1004,9 +1015,6 @@ p.paragraph {
         font-size: 1rem;
     }
 
-    /* .home-page h1 { 
-        margin: 1rem 0;
-    } */
     .home__title strong.span-black-color span {
         font-size: 3.5rem;
     }
@@ -1044,6 +1052,7 @@ p.paragraph {
     header.header div.logo span img {
         width: 3.5rem;
         margin-bottom: 1.7rem;
+        margin-left: 1rem;
     }
 
     article.service {
