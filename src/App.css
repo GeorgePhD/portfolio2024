@@ -206,7 +206,7 @@ header.header div.logo h3.name {
 }
 
 .layout {
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -289,7 +289,7 @@ header.header div.logo h3.name {
 }
 
 .footer {
-    max-width: 1600px;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
