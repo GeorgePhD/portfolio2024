@@ -497,7 +497,9 @@ p.text-centered span {
     flex-basis: 25%;
     margin-bottom: 2rem;
 }
-
+.article-link {
+    text-decoration: none;
+}
 .mask {
     overflow: hidden;
 }
@@ -540,9 +542,6 @@ p.text-centered span {
     gap: 1rem;
     margin: 0 auto;
     margin-top: 3rem;
-}
-.article-link {
-    text-decoration: none;
 }
 h1.h1 {
     margin-bottom: 0;
@@ -970,7 +969,24 @@ p.paragraph {
     .services__ul {
         padding: 3rem;
     }
-
+    .faq__container {
+        padding: 2rem;
+        border-radius: 0;
+    }
+    .faq__section__contaier {
+        padding: 1rem;
+        width: 100%;
+        border-radius: 0;
+    }
+    .faq__title {
+        font-size: 2.3rem;
+    }
+    .faq__subtitle {
+        font-size: 1.8rem;
+    }
+    .faq__content {
+        font-size: 1.5rem;
+    }
     footer.footer {
         margin-top: 0;
     }
