@@ -20,6 +20,43 @@
     --padding-content: 0.5rem;
     --footer-color: #1b263b;
 }
+
+.urbanist__thinner {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: var(--text--color);
+}
+.urbanist__thin {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--text--color);
+}
+.urbanist__regular {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--text--color);
+}
+.urbanist__bold {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--text--color);
+}
+.urbanist__bolder {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: var(--text--color);
+}
+
 /* menu dark mode button starts here */
 .button__container {
     display: flex;
@@ -28,12 +65,14 @@
     justify-content: center;
     gap: 1rem;
 }
+
 .change__language__button {
     display: flex;
     flex-direction: row;
     align-items: start;
     justify-content: start;
 }
+
 .change__language__button {
     padding: 1rem 1rem;
     border: 1px solid rgb(214, 214, 214);
@@ -44,6 +83,7 @@
     color: white;
     transition: all 300ms ease-in-out;
 }
+
 .change__language__button:hover {
     background-color: white;
     color: var(--main-color);
@@ -51,6 +91,7 @@
     font-weight: 400;
     box-shadow: 2px 2px 7px var(--box-shadow-color);
 }
+
 .button__container button.menu__button {
     padding: 1rem 1rem;
     border: 1px solid rgb(214, 214, 214);
@@ -60,9 +101,11 @@
     margin-right: 10px;
     background-color: #ffffff;
 }
+
 .dark__mode__icon {
     width: 40px;
 }
+
 body {
     background-color: white;
     color: black;
@@ -75,12 +118,16 @@ body {
     cursor: pointer;
     margin-right: 10px;
 }
+
 /* Dark mode styles */
 body.dark-mode {
     /* background-color: #161514; */
-    background: #B2FEFA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #e0dada85, #d5e6e599);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #e0dada85, #d5e6e599); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #B2FEFA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e0dada85, #d5e6e599);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e0dada85, #d5e6e599);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
 }
 
@@ -595,15 +642,18 @@ p.paragraph {
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
 }
+
 .faq__title {
     font-size: var(--h1-font-size);
     text-align: start;
 }
+
 .faq__subtitle {
     font-size: var(--h2-font-size);
     text-align: start;
     margin-bottom: 1rem;
 }
+
 .faq__content {
     font-size: var(--p-font-size);
     text-align: start;
@@ -611,10 +661,12 @@ p.paragraph {
     line-height: 1.4;
     font-weight: 600;
 }
+
 .faq__section__contaier {
     padding: 1.5rem 3rem;
     width: 100%;
 }
+
 /* faq ends here */
 /* contact starts here */
 .links__container {
