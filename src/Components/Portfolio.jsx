@@ -15,7 +15,7 @@ const Portfolio = () => {
 
     <div>
     {/* <button className='change__language__button'>English</button> */}
-    <h1 className='h1'>Portafolio</h1>
+    {/* <h1 className='h1'>Portafolio</h1> */}
     
     <div className='portfolio-container'>
       

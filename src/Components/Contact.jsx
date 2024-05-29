@@ -16,7 +16,7 @@ const Contact = () => {
     {/* <button className='change__language__button'>English</button> */}
     {/* <div className='page'> */}
     <div className="page">
-      <h1 className='h1'>Contacto</h1>
+      {/* <h1 className='h1'>Contacto</h1> */}
               <h2 className="link__title">Hazme click!</h2>
         <section className="links__container">
             <section className="link__container">

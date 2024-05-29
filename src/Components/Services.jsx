@@ -23,6 +23,9 @@ import Image18 from '../../public/images/consulting-3.png'
 import Image19 from '../../public/images/pictures-1.png'
 import Image20 from '../../public/images/pictures-2.png'
 import Image21 from '../../public/images/pictures-3.png'
+import Image22 from '../../public/images/translation__1.png'
+import Image23 from '../../public/images/translation__2.png'
+import Image24 from '../../public/images/translation__3.png'
 import Faq from '../Components/faq';
 import { gsap } from 'gsap';
 import { useEffect } from 'react';
@@ -46,7 +49,7 @@ const Services = () => {
     <div className='page'>
       {/* <button className='change__language__button'>English</button> */}
       <section className="services">
-        <h1 className='h1 urbanist__bolder'>Servicios</h1>
+        {/* <h1 className='h1 urbanist__bolder'>Servicios</h1> */}
         <article className="service service__3">
           <section className="service__content">
             <h2 className='h2 urbanist__bold'>Desarrollo de Software Personalizado</h2>
@@ -190,9 +193,9 @@ const Services = () => {
           </section>
           <p className="paragraph urbanist__regular">En Let´sDevelopme, entendemos la importancia de una presencia global en línea. Nuestro equipo de traductores expertos está dedicado a proporcionar traducciones precisas y culturalmente adaptadas de su contenido web del español al inglés. Nos especializamos en transformar su sitio web para atraer y cautivar a audiencias de habla inglesa, asegurando que su mensaje se mantenga consistente y atractivo en todos los idiomas.</p>
           <div className="services__image__container">
-            <img src={Image19} className="services__image" alt="" />
-            <img src={Image20} className="services__image middle__image" alt="" />
-            <img src={Image21} className="services__image" alt="" />
+            <img src={Image22} className="services__image" alt="" />
+            <img src={Image23} className="services__image middle__image" alt="" />
+            <img src={Image24} className="services__image" alt="" />
           </div>
           <ul className="services__ul">
             <p className="paragraph urbanist__regular">¿Qué Ofrecemos?</p>
