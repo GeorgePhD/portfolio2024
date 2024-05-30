@@ -33,6 +33,7 @@ const Portfolio = () => {
               <p className="paragraph">{job.description}</p>
               <p to={job.url} className='link' target='_blank' rel="noreferrer">{urlCLeaned(job.url)}</p>
               <h3 className='paragraph'> tecnologías: {job.tech}</h3>
+              <p className="paragraph paragraph__info--job">{job.info}</p>
             </article>
             </a>
           );

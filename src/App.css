@@ -498,7 +498,10 @@ p.text-centered span {
     margin: 0 auto;
     gap: 1rem;
 }
-
+.paragraph.paragraph__info--job {
+    color: rgb(14, 150, 25);
+    font-weight: bold;
+}
 .article {
     flex-basis: 25%;
     margin-bottom: 2rem;
