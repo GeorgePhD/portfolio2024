@@ -36,7 +36,8 @@ export const jobs = [
         'description': 'Cancha de airsoft.',
         'url': 'https://www.losmaitenesairsoft.cl',
         'tech': 'React JS, CSS, React-bootstrap.',
-        'info': 'Sitio online'
+        'info': 'Sitio online',
+        'important': 'creado en conjunto a: instagram.com/lepe_dev'
     },
     {
         'id': 'fotografiasds2',
