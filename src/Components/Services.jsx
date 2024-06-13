@@ -207,8 +207,8 @@ const Services = () => {
               Entendemos la importancia del SEO para el éxito de su sitio web. Nuestros traductores están capacitados en SEO, garantizando que las palabras clave y frases relevantes se integren de manera efectiva en la traducción para mejorar su visibilidad en los motores de búsqueda.</p></li>
             <li><p className="paragraph urbanist__regular">Adaptación Técnica:
               Nuestros servicios no se limitan a la traducción de texto. También adaptamos y verificamos todos los elementos técnicos, incluyendo meta descripciones, etiquetas alt de imágenes, y cualquier otro contenido integrado en su sitio web.</p></li>
-            <li><p className="paragraph urbanist__regular">Revisión y Control de Calidad:
-              Cada proyecto pasa por un riguroso proceso de revisión y control de calidad. Nuestros editores revisan cada traducción para garantizar precisión, coherencia y fluidez, proporcionando un producto final impecable.</p></li>
+            {/* <li><p className="paragraph urbanist__regular">Revisión y Control de Calidad:
+              Cada proyecto pasa por un riguroso proceso de revisión y control de calidad. Nuestros editores revisan cada traducción para garantizar precisión, coherencia y fluidez, proporcionando un producto final impecable.</p></li> */}
             <p className="paragraph urbanist__regular">¿Por Qué Elegirnos?</p>
             <li><p className="paragraph urbanist__regular">Experiencia y Profesionalismo: Contamos con años de experiencia en la industria de la traducción y un equipo de profesionales altamente capacitados.
               <li><p className="paragraph urbanist__regular">Enfoque Personalizado: Adaptamos nuestros servicios para satisfacer sus necesidades específicas y brindar resultados excepcionales.</p></li>
