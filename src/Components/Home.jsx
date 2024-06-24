@@ -83,7 +83,7 @@ const Home = () => {
     {/* <button className='change__language__button'>English</button> */}
     <div className='home-page'>
       <h1 className='home__title' ref={titleRef}>Somos 
-      <strong className='span-black-color'>Let'sDevelopMe</strong> y desarrollamos <strong className='span-black-color'>Sitios web</strong> 
+      <strong className='span-black-color'>Let&apos;sDevelopMe</strong> y desarrollamos <strong className='span-black-color'>Sitios web</strong> 
       </h1>
 
       <p className='text-centered' ref={paragraphRef}>
