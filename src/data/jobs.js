@@ -12,6 +12,15 @@ export const jobs = [
         'info': 'Sitio online'
     },
     {
+        'id': 'Danatelas',
+        'name': 'Danatelas',
+        'img': 'images/danatelas.png',
+        'description': 'suministro de telas.',
+        'url': 'https://www.danatelas.cl',
+        'tech': 'React JS, CSS, React-bootstrap.',
+        'info': 'Sitio online, en proceso.'
+    },
+    {
         'id': 'tprotein',
         'name': 'Tprotein',
         'img': 'images/tprotein.jpg',
