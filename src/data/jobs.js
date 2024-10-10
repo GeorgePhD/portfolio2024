@@ -12,6 +12,15 @@ export const jobs = [
         'info': 'Sitio online'
     },
     {
+        'id': 'Instituto norteamericano de la cultura, curicó.',
+        'name': 'Inchinor',
+        'img': 'images/logo-inchinor.png',
+        'description': 'Instituto norteamericano de la cultura, curicó.',
+        'url': 'https://www.inchinor.cl',
+        'tech': 'Wordpress.',
+        'info': 'Sitio en linea, diseño y funcionalidades 2024.'
+    },
+    {
         'id': 'Danatelas',
         'name': 'Danatelas',
         'img': 'images/danatelas.png',
