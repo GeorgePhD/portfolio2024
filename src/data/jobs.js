@@ -8,8 +8,17 @@ export const jobs = [
         'img': 'images/eveweb.png',
         'description': 'Artista.',
         'url': 'https://www.evelynaguilarart.com',
-        'tech': 'React JS,CSS, React-bootstrap.',
+        'tech': 'React JS, CSS, Bootstrap.',
         'info': 'Sitio online'
+    },
+    {
+        'id': 'SimplyGreen Tattoos',
+        'name': 'SimplyGreen Tattoos',
+        'img': 'images/simplygreen.png',
+        'description': 'Tatuajes.',
+        'url': 'https://www.simplygreentattoos.com',
+        'tech': 'React JS, CSS, Tailwind.',
+        'info': 'Sitio en proceso.'
     },
     {
         'id': 'Instituto norteamericano de la cultura, curicó.',
@@ -26,7 +35,7 @@ export const jobs = [
         'img': 'images/danatelas.png',
         'description': 'suministro de telas.',
         'url': 'https://www.danatelas.cl',
-        'tech': 'React JS, CSS, React-bootstrap.',
+        'tech': 'React JS, CSS, Bootstrap.',
         'info': 'Sitio online, en proceso.'
     },
     {
@@ -35,7 +44,7 @@ export const jobs = [
         'img': 'images/tprotein.jpg',
         'description': 'suplementos nutricionales.',
         'url': 'https://www.tprotein.cl',
-        'tech': 'React JS, CSS, React-bootstrap.',
+        'tech': 'React JS, CSS, Bootstrap.',
         'info': 'Sitio online'
     },
     {
@@ -44,7 +53,7 @@ export const jobs = [
         'img': 'images/psiballest.jpg',
         'description': 'atención psicologíca.',
         'url': 'https://www.psiballest.com',
-        'tech': 'HTML, CSS, JS, bootstrap.',
+        'tech': 'HTML, CSS, JS, Bootstrap.',
         'info': 'Sitio online'
     },
     {
@@ -53,7 +62,7 @@ export const jobs = [
         'img': 'images/LosMaitenesChile.jpg',
         'description': 'Cancha de airsoft.',
         'url': 'https://www.losmaitenesairsoft.cl',
-        'tech': 'React JS, CSS, React-bootstrap.',
+        'tech': 'React JS, CSS, Bootstrap.',
         'info': 'Sitio online',
         'important': 'creado en conjunto a: instagram.com/lepe_dev'
     },
@@ -63,7 +72,7 @@ export const jobs = [
         'img': 'images/fotografiasds.jpg',
         'description': 'fotografías de paisajes del sur de chile.',
         'url': 'https://www.fotografiasds.com',
-        'tech': 'HTML, CSS, JS, bootstrap.',
+        'tech': 'HTML, CSS, JS, Bootstrap.',
         'info': 'Sitio offline, en proceso.'
     },
     {
@@ -72,7 +81,7 @@ export const jobs = [
         'img': 'images/goingtochile2.jpg',
         'description': 'Sitio turístico, viaja por chile.',
         'url': 'https://www.goingtochile.com',
-        'tech': 'HTML, CSS, JS, bootstrap.',
+        'tech': 'HTML, CSS, JS, Bootstrap.',
         'info': 'Sitio offline, en proceso.'
     }
 ];
